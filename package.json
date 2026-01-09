@@ -1,0 +1,28 @@
+{
+  "name": "sistem-pakar-penyakit-tropis",
+  "version": "1.0.0",
+  "description": "Aplikasi sistem pakar berbasis rule untuk diagnosis awal penyakit tropis",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"No test specified\""
+  },
+  "keywords": [
+    "sistem pakar",
+    "expert system",
+    "penyakit tropis",
+    "forward chaining",
+    "node js"
+  ],
+  "author": "Excel Moreno",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

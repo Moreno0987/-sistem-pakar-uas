@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sistem Pakar Diagnosis Penyakit Tropis</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<main class="container">
+
+  <!-- ================= MENU UTAMA ================= -->
+  <section id="home" class="card">
+    <h1>🩺 Sistem Pakar Diagnosis Penyakit Tropis</h1>
+    <p class="subtitle">
+      Aplikasi ini membantu melakukan diagnosis awal penyakit tropis
+      berdasarkan gejala yang Anda rasakan.
+    </p>
+
+    <button id="startBtn" class="btn primary">
+      Mulai Diagnosa
+    </button>
+  </section>
+
+  <!-- ================= PROGRESS ================= -->
+  <p id="progress" class="progress" style="display:none;">
+    Pertanyaan 1 dari 8
+  </p>
+
+  <!-- ================= PERTANYAAN ================= -->
+  <section id="question-box" class="card" style="display:none;">
+    <h2 id="question">Pertanyaan akan muncul di sini</h2>
+
+    <div class="button-group">
+      <button id="yesBtn" class="btn yes">Ya</button>
+      <button id="noBtn" class="btn no">Tidak</button>
+    </div>
+  </section>
+
+  <!-- ================= HASIL ================= -->
+  <section id="result" class="card" style="display:none;"></section>
+
+  <!-- ================= DISCLAIMER ================= -->
+  <p class="disclaimer">
+    ⚠️ Hasil diagnosis ini bersifat awal dan tidak menggantikan diagnosis tenaga medis profesional.
+  </p>
+
+  <footer>
+    <p>
+      Sistem Pakar &copy; 2025 <br/>
+      Metode Forward Chaining & Certainty Factor
+    </p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
